@@ -6,8 +6,18 @@
       <sourceFolder url="file://$MODULE_DIR$/a_Lectures/Lecture01" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b_Seminars/Seminar01/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b_Seminars/Seminar02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/c_Homeworks/Homework01" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
