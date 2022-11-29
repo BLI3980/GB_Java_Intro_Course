@@ -1,9 +1,8 @@
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Random;
 
 // Task: Create an array and then reverse it.
-public class Task01 {
+public class Sem02_Task01 {
     public static void main(String[] args) {
         int[] arr1 = new int[10];
         int[] arr2 = new int[10];

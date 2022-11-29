@@ -1,5 +1,5 @@
 public class lib {
     static void sayHello(){
-        System.out.println("Hello-hello!");
+        System.out.println("Hello!");
     }
 }

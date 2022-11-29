@@ -1,5 +1,5 @@
 // Task: Reverse a string using StringBuilder
-public class Task02 {
+public class Sem02_Task02 {
     public static void main(String[] args) {
         // Attempt 1
         String s = "Hello World!";

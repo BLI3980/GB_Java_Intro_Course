@@ -1,15 +1,3 @@
-import java.io.ObjectOutputStream.PutField;
-import java.security.PublicKey;
-import java.util.Scanner;
-
-import javax.annotation.processing.Filer;
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
-
-import java.io.FileWriter;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class program {
     public static void main(String[] args) {
         // =============================== Basics =========================
@@ -43,10 +31,10 @@ public class program {
         // String msg = "Hello World";
         // System.out.println(msg); // Hello World
         //
-        var i = 123;
-        System.out.println(getType(i)); // Integer
-        var j = 123.456;
-        System.out.println(getType(j)); // Double
+//        var i = 123;
+//        System.out.println(getType(i)); // Integer
+//        var j = 123.456;
+//        System.out.println(getType(j)); // Double
         //
         // =============================== Vars =========================
 
@@ -226,10 +214,10 @@ public class program {
         // System.out.println(a + b);
 
         // =============================== Methods =========================
-        // sayHi();
-        // utility.sayHello();
-        // util1.sayWhatsup();
-        // lib.sayHello();
+         sayHi();
+         utility.sayHello();
+         util1.sayWhatsup();
+         lib.sayHello();
 
         // =============================== Conditions ======================
         // int a = 1;
