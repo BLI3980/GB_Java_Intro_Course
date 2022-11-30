@@ -1,5 +1,5 @@
-// Task05: Replace symbol "=" by word "equal". Use methods StringBuilder.insert()
-// and StringBuilder.deleteCharAt().
+// Task05: Replace symbol "=" by word "equal". Use methods
+// StringBuilder.insert() and StringBuilder.deleteCharAt().
 public class HW02_05 {
 
     public static void main(String[] args) {

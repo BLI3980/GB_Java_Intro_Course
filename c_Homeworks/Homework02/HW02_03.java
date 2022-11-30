@@ -10,7 +10,7 @@ public class HW02_03 {
 
     }
     static String revRec (String str, StringBuilder sb, int m) {
-        if(m > str.length()-1) return str;
+        if(m > str.length()-1) return "";
 
         revRec(str, sb,m+1);
         char i = str.charAt(m);
