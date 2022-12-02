@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class HW03_01 {
+public class HW03 {
     public static ArrayList HW03_Task01(){
         ArrayList<String> new_list = new ArrayList<>();
         new_list.add("black");
@@ -69,6 +69,7 @@ public class HW03_01 {
            }
         });
         System.out.println("Task 10 after: " + list3);
+
         // ================ Task11 ==========================
         System.out.println("Task 11: ");
         ArrayList<Integer> list5 = new ArrayList<>();
