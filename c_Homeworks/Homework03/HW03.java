@@ -1,4 +1,14 @@
 // Task01: Create new list, add a few elements and print the collection to the console
+// Task02: Iterate through each element of the list and add "!" symbol to each element.
+// Task03: Insert element into the 1st position of the list.
+// Task04: Extract element at specified index of the list.
+// Task05: Update/replace certain element of the list by index.
+// Task06: Delete the third element of the list.
+// Task07: Find an element of the list by string value.
+// Task08: Create new list add several element of the first list into new list.
+// Task09: Delete from the first list all elements that are not present in the 2nd list.
+// Task10: Sort a list
+// Task11: Compare execution times for 1000 iterations of task03 for ArrayList and LinkedList.
 
 import java.util.*;
 
