@@ -62,7 +62,7 @@ public class HW03 {
         List list2 = list1.subList(1,3);
         System.out.println("Task 08: " + list2);
 
-        // ================ Task019 ==========================
+        // ================ Task09 ==========================
         list1.retainAll(list2);
         System.out.println("Task 09: " + list1);
 
