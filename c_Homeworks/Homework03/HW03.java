@@ -28,7 +28,6 @@ public class HW03 {
         for (String i: str) {i += "!"; str1.add(i);}
         return str1;
     }
-
     public static void main(String[] args) {
         // ================ Task01 ==========================
         ArrayList<String> list1 = HW03_Task01();
@@ -56,7 +55,7 @@ public class HW03 {
         // ================ Task07 ==========================
         System.out.print("Task 07: ");
         for (String i : list1) {
-            if (i == "brown") System.out.println(i);
+            if (i.equals("red!")) System.out.println(i);
         }
         // ================ Task08 ==========================
         List list2 = list1.subList(1,3);
