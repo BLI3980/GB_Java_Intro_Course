@@ -1,7 +1,7 @@
 package Lesson_02;
 import java.io.File;
 
-public class Ex002_fileSystemDemo {
+public class Ex002_FileSystem {
     public static void main(String[] args) {
         String pathProject = System.getProperty("user.dir");
         String pathFile = pathProject.concat("/file.txt");

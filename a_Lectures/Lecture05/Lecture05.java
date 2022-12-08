@@ -1,3 +1,11 @@
+// Lecture structure:
+// 01. Map overview and functionality
+// 02. What for
+// 03. HashMap
+// 04. TreeMap
+// 05. LinkedHashMap
+// 06. Examples
+
 import java.util.HashMap;
 import java.util.Map;
 

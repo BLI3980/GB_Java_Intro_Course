@@ -2,7 +2,7 @@ package Lesson_03;
 
 import java.util.ArrayList;
 
-public class Ex003_ArraysMethod {
+public class Ex003_ArrayList {
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         ArrayList<Integer> list2 = new ArrayList<>();

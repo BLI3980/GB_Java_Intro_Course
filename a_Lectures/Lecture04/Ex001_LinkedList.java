@@ -2,7 +2,7 @@ package Lesson_04;
 
 import java.util.LinkedList;
 
-public class Ex001 {
+public class Ex001_LinkedList {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<Integer>();
 

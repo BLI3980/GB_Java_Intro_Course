@@ -2,7 +2,7 @@ package Lesson_03;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ex004 {
+public class Ex004_ArraysMethod {
     public static void main(String[] args) {
         int day = 29;
         int month = 9;

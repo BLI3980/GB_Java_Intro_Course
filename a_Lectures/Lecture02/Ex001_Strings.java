@@ -1,5 +1,5 @@
 package Lesson_02;
-public class Ex001_stringsDemo {
+public class Ex001_Strings {
     public static void main_(String[] args) {
         String[] name = { "C", "е", "р", "г", "е", "й" };
         String sk = "СЕРГЕЙ КА.";

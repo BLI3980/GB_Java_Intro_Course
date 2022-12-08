@@ -1,6 +1,6 @@
 package Lesson_03;
 
-public class Ex001 {
+public class Ex001_Object {
     static int[] AddItemInArray(int[] array, int item) {
         int length = array.length;
         

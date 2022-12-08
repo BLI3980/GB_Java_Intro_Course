@@ -1,3 +1,11 @@
+// Lecture structure (Collections):
+// 01. Types. Objects
+// 02. Generalization
+// 03. Arrays
+// 04. Collections, Lists
+// 05. ArrayLists
+// 06. Iterators
+
 import org.w3c.dom.ls.LSOutput;
 
 import java.awt.*;

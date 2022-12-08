@@ -2,7 +2,7 @@ package Lesson_04;
 
 import java.util.*;
 
-public class Ex004 {
+public class Ex004_Stack {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         stack.push(1);

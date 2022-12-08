@@ -2,7 +2,7 @@ package Lesson_03;
 
 import java.util.List;
 
-public class Ex006 {
+public class Ex006_ListOf {
     public static void main(String[] args) {
         Character value = null;
         List<Character> list1 = List.of('S', 'e', 'r', 'g', 'e', 'y');

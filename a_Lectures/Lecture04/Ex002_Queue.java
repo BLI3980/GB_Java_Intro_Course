@@ -3,7 +3,7 @@ package Lesson_04;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Ex002 {
+public class Ex002_Queue {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<Integer>();
         queue.add(1);

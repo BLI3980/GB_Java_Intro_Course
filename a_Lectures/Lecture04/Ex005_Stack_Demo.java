@@ -2,7 +2,7 @@ package Lesson_04;
 
 import java.util.Stack;
 
-public class Ex005 {
+public class Ex005_Stack_Demo {
 
     private static boolean isDigit(String s) throws NumberFormatException {
         try {

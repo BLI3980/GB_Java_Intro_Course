@@ -11,7 +11,7 @@
 // 10. Conditions
 // 11. Loops
 // 12. Files
-public class program {
+public class Lecture01 {
     public static void main(String[] args) {
         // =============================== Basics =========================
 

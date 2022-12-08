@@ -1,3 +1,9 @@
+// Lecture structure:
+// 01. Work with strings
+// 02. Work with file system
+// 03. Logging
+// 04. Import
+// 05. xml
 import java.io.File;
 public class Lecture02 {
     public static void main(String[] args) {

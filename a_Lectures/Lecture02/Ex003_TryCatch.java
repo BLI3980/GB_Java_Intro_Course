@@ -1,7 +1,7 @@
-package Lesson_02;
+//package Lesson_02;
 import java.io.*;
 
-public class Ex003_tryDemo {
+public class Ex003_TryCatch {
     public static void main(String[] args) {
         String line = "empty";
         try {

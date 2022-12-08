@@ -1,3 +1,10 @@
+// Lecture structure:
+// 01. Types of collections, differences
+// 02. LinkedList
+// 03. Queue
+// 04. Deque
+// 05. Stack
+
 import java.sql.SQLOutput;
 import java.util.*;
 
