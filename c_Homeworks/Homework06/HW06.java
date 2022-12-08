@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class HW06 {
+public class HW06 {
 }
