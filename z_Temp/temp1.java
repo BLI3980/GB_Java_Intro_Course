@@ -111,11 +111,11 @@ public class temp1 {
         int[] key_arr = new int[colors.size()-1];
 //        System.out.println(keys);
         keys.toArray();
-        Arrays.sort(keys,keys.size(),0);
+//        Arrays.sort(keys,keys.size(),0);
 
-        for (int i: colors.keySet()) {
-            key_arr[]
-        }
+//        for (int i: colors.keySet()) {
+//            key_arr[]
+//        }
 //        colors.forEach((k,v) -> index_list1.add(k));
 //        for (int i: colors.keySet()) {
 //            index_list1.add(i);
