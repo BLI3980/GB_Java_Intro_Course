@@ -1,3 +1,16 @@
+// Lecture structure:
+// 01. Data types
+// 02. Wrappers
+// 03. Operations
+// 04. Arrays
+// 05. Type casting
+// 06. Input
+// 07. Formatted output
+// 08. Visibility
+// 09. Methods
+// 10. Conditions
+// 11. Loops
+// 12. Files
 public class program {
     public static void main(String[] args) {
         // =============================== Basics =========================
