@@ -96,38 +96,52 @@ public class temp1 {
 //        }
 //        System.out.println(list_indx);
 // ==================================================================
-        Integer[] date = {4, 3, 2, 1, 0};
-        List<Integer> index_list = Arrays.asList(date);
-        List<Integer> index_list1 = Arrays.asList(date);
-
-        System.out.println(index_list);
-        Map<Integer, String> colors = new HashMap<>();
-        colors.put(3, "teal");
-        colors.put(1, "olive");
-        colors.put(0, "magenta");
-        colors.put(4, "beige");
-        colors.put(2, "plum");
-        Set<Integer> keys = colors.keySet();
-        int[] key_arr = new int[colors.size()-1];
-//        System.out.println(keys);
-        keys.toArray();
-//        Arrays.sort(keys,keys.size(),0);
-
-//        for (int i: colors.keySet()) {
-//            key_arr[]
+//        Integer[] date = {4, 3, 2, 1, 0};
+//        List<Integer> index_list = Arrays.asList(date);
+//        List<Integer> index_list1 = Arrays.asList(date);
+//
+//        System.out.println(index_list);
+//        Map<Integer, String> colors = new HashMap<>();
+//        colors.put(3, "teal");
+//        colors.put(1, "olive");
+//        colors.put(0, "magenta");
+//        colors.put(4, "beige");
+//        colors.put(2, "plum");
+//        Set<Integer> keys = colors.keySet();
+//        int[] key_arr = new int[colors.size()-1];
+////        System.out.println(keys);
+//        keys.toArray();
+////        Arrays.sort(keys,keys.size(),0);
+//
+////        for (int i: colors.keySet()) {
+////            key_arr[]
+////        }
+////        colors.forEach((k,v) -> index_list1.add(k));
+////        for (int i: colors.keySet()) {
+////            index_list1.add(i);
+////        }
+////        System.out.println(index_list1);
+//
+//        System.out.println(colors.entrySet());
+//
+//
+//        for (int i: index_list) {
+//            System.out.println(colors.get(i));
 //        }
-//        colors.forEach((k,v) -> index_list1.add(k));
-//        for (int i: colors.keySet()) {
-//            index_list1.add(i);
-//        }
-//        System.out.println(index_list1);
+// ==================================================================
+        Comparator<Integer> comparator = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer t0, Integer t1) {
+                return t1 - t0;
+            }
+        };
+        TreeMap<Integer, String> treeMap = new TreeMap<>(comparator);
 
-        System.out.println(colors.entrySet());
-
-
-        for (int i: index_list) {
-            System.out.println(colors.get(i));
-        }
+        treeMap.put(5,"Five");
+        treeMap.put(6,"Six");
+        treeMap.put(7,"Seven");
+        treeMap.put(8,"Eight");
+        System.out.println(treeMap);
     }
     static void Print(String str){
         System.out.println(str);

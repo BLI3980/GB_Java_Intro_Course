@@ -138,13 +138,13 @@ public class Seminar03 {
         list2.sort(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o1 - o2;
+                return o2-o1;
             }
         });
 
 
 //        list2.forEach(i -> System.out.println(i));
-        System.out.println("list2 = " + list2);
+        System.out.println("list2 sorted = " + list2);
 
 //18. Sublist
         List l2 = list2.subList(2, list2.size()-2); // returns slice of original list
