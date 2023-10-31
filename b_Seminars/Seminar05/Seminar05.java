@@ -11,29 +11,29 @@ public class Seminar05 {
         mp.put(5, "Five");
         mp.put(3, "Three");
         System.out.println("1. " + mp.get(5));
-        System.out.println(keySet);
+        System.out.println("2. " + keySet);
         String str = mp.get(32);
-        if(mp.get(32) != null){System.out.println(str);}
+        if(mp.get(32) != null){System.out.println("3. " + str);}
         mp.getOrDefault(32, "def");
-        System.out.println(mp.containsKey(5));
-        System.out.println(mp.containsValue("Five"));
-        System.out.println(mp.entrySet());
+        System.out.println("4. " + mp.containsKey(5));
+        System.out.println("5. " + mp.containsValue("Five"));
+        System.out.println("6. " + mp.entrySet());
         Set<Map.Entry<Integer, String >> aSet = mp.entrySet();
         mp.remove(4);
         mp.replace(5, "five!");
-        System.out.println(mp);
+        System.out.println("7. " + mp);
         mp.replace(5, "five!", "five!!");
-        System.out.println(mp);
+        System.out.println("8. " + mp);
         mp.size();
         mp.forEach((k, v) -> System.out.println("key: " + k + "; value: " + v));
         mp.compute(5, (k, v) -> v = v+"!!");
-        System.out.println(mp);
+        System.out.println("9. " + mp);
         mp.computeIfAbsent(6, k -> CompIfAbs());
-        System.out.println(mp);
+        System.out.println("10. " + mp);
         mp.computeIfPresent(6, (k, v) -> CompIfPr(v));
-        System.out.println(mp);
+        System.out.println("11. " + mp);
         mp.putIfAbsent(7, "Seven"); // Same as put, but checks if absent or not
-        System.out.println(mp);
+        System.out.println("12. " + mp);
         mp.merge(7, "SV_", (k, v) -> v = v+"!");
         System.out.println(mp);
 
